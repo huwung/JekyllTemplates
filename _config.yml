@@ -6,9 +6,9 @@ paginate: 2 #6
 comments: true
 paginate_path: "/page/:num"
 
-baseurl: "/nandomoreira-jekyll-theme" # change to empty string ""
-domain_name: nandomoreira.me
-google_analytics: UA-52446115-1
+baseurl: "" # change to empty string ""
+domain_name:
+google_analytics:
 
 source:      source
 destination: _site
