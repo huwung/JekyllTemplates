@@ -118,7 +118,8 @@ task :page do
     post.puts "title: \"#{title}\""
     post.puts "---"
 
-    post.puts "## Referenser"
+    post.puts "<h3>Referenser</h3>"
+    post.puts "<ul><li><a href="https://huwung.github.io">example</a></li></ul>"
   end
 end # task :page
 
