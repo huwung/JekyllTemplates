@@ -2,7 +2,7 @@
 #
 
 # Site settings
-title: Das Projekt M | molnplus
+title: Projektet | Lösningar
 description: |
   數據科學實驗室(molnplus) /
   計算生物學 |
@@ -10,11 +10,11 @@ description: |
   信息可視化
 owner: Das molnplus Lab # or company name
 first_published: 2016 # if migrating another site, the year of your first publish
-email: your-email@domain.com
+email: wang.hu.molnplus@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://molnplus.github.io" # the base hostname & protocol for your site
 social:
-  twitter: https://twitter.com/<username>
+  twitter: https://twitter.com/huWANGplus
   github: https://github.com/<username>
   linkedin-square: https://linkedin.com/in/<username>
   facebook-official: https://facebook.com/<username>
