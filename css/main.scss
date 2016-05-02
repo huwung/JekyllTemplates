@@ -209,6 +209,26 @@ $baseurl: '{{ site.baseurl }}/images';
 		text-align: right;
 	}
 
+
+.style-link {
+  border-radius: 8px;
+  padding: 3px;
+  color: #FE006C;
+  text-decoration: none;
+  -webkit-transition: background-color .7s;
+  -moz-transition: background-color .7s;
+  transition: background-color .7s;
+}
+
+.style-link:hover,style-link:active {
+  font-family: "Titillium Web", "American Typewriter", Impact;
+  /* but the font "Titillium Web" was not defined in theme Spectral */
+  font-size: 83%;
+  background-color: #FE006C;
+  color: #fff;
+}
+
+
 /* Section/Article */
 
 	section, article {
