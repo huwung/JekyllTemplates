@@ -35,3 +35,6 @@ nbproject
 # Folders to ignore
 node_modules
 bower
+
+# Gem
+Gemfile.lock
