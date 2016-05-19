@@ -3,7 +3,7 @@ markdown    : kramdown
 highlighter : pygments
 
 paginate: 2 #6
-comments: true
+comments: false
 paginate_path: "/page/:num"
 
 baseurl: "" # change to empty string ""
@@ -13,7 +13,7 @@ google_analytics:
 source:      source
 destination: _site
 
-# cover: /assets/images/header-cover.png
+cover: /assets/images/header-cover.png
 
 # site title, description, meta_description, meta_keywords
 # Details for the RSS feed generator
@@ -23,9 +23,9 @@ description: "Desenvolvedor Front-end/Wordpress, Design Responsivo, HTML5, CSS3 
 meta_description: "Desenvolvedor Front-end/Wordpress, Design Responsivo, HTML5, CSS3 e JavaScript"
 meta_keywords: "site, website, loja virtual, lojas virtuais, e-commerce, wordpress, frontend, front-end, html5, css3, javascript, jquery, seo, otimizacao, performance"
 url:
-production_url: http://nandomoreira.me
-repo: https://github.com/nandomoreirame/nandomoreira-jekyll-theme
-disqus_shortname: "fernandomoreira"
+production_url:
+repo:
+disqus_shortname:
 rss_path: source/
 author:
   name      : Fernando Moreira
@@ -47,7 +47,7 @@ thought:
 # Plugin: jekyll-assets
 assets:
   dirname: /assets
-  baseurl: /nandomoreira-jekyll-theme/assets/ # change to /assets/
+  baseurl: /assets/ # change to /assets/
   sources:
     - assets/images
     - assets/fonts
