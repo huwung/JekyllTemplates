@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Ignore docs files
 _gh_pages
 _site
@@ -39,6 +38,3 @@ bower
 
 # Gem
 Gemfile.lock
-=======
-_site
->>>>>>> 6fd03eacbd752657087dff859c27e0b03e1cbc6d
