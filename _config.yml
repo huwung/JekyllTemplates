@@ -3,7 +3,7 @@ markdown    : kramdown
 highlighter : pygments
 
 paginate: 2 #6
-comments: false
+comments: true
 paginate_path: "/page/:num"
 
 baseurl: "" # change to empty string ""
@@ -25,11 +25,11 @@ meta_keywords: "site, website, loja virtual, lojas virtuais, e-commerce, wordpre
 url:
 production_url:
 repo:
-disqus_shortname:
+disqus_shortname: hugohoover
 rss_path: source/
 author:
-  name      : Fernando Moreira
-  image     : /assets/images/author.jpg
+  name      : Hugo Bernstein
+  image     : /assets/images/logo.derTiger.jpg
   email     : nandomoreira.me@gmail.com
   url       : http://nandomoreira.me
   facebook  : http://facebook.com/fernando.dev
