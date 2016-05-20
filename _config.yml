@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Site settings
 title: fenomen
 email: huwung@gmail.com
@@ -12,3 +13,60 @@ github_username:  huwung
 
 # Build settings
 markdown: kramdown
+=======
+# Dependencies
+markdown:	redcarpet
+highlighter: pygments
+permalink: pretty
+paginate:	5
+
+# Permalinks
+permalink:	/blog/:title
+
+# Setup
+title:		Fenomen | 現象
+tagline:	'blog'
+description:	'My personal blog.'
+url:		http://camporez.com
+
+author:
+  name:		'Hugo Hoover'
+  url:
+
+
+# Custom vars
+icon:		/assets/images/icon.png
+cover:		/assets/images/cover.jpg
+
+social:
+  - icon:	twitter
+    url:	https://twitter.com/huWANGplus
+    desc:	Follow me on twitter
+
+  - icon:	github
+    url:	https://github.com/huwung
+    desc:	Fork me on github
+
+  - icon:	googleplus-alt
+    url:	https://google.com/
+    desc:	Add me on google+
+
+  - icon:	feed
+    url:	http://camporez.com/atom.xml
+    desc:	Subscribe to my feed
+
+menu:
+  - title:	Home
+    url:	/
+
+  - title:	About
+    url:	/about
+
+copyright:
+  author:	molnplus
+  url:		http://molnplus.github.io
+  type_title:	Some rights reserved
+  type_url:	http://creativecommons.org/licenses/by-nc/2.5
+
+gems: [jekyll-paginate]
+>>>>>>> b1c4c8c8f6ae34090bcd6553ea1180e36fdde351
