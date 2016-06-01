@@ -1,0 +1,14 @@
+---
+layout: default
+title: Home
+post_class: page
+slug: home
+---
+
+
+
+{% for post in paginator.posts %}
+  {% include article.html %}
+{% endfor %}
+
+{% include pagination.html %}
