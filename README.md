@@ -61,3 +61,8 @@ $ gulp
 It is under [the MIT license](/LICENSE).
 
 Enjoy! :yum:
+
+---
+
+> If you want to modify the CSS or something, you should perform it in `_assets`.
+The gulp.js will finish the other tasks. 
