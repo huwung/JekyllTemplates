@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ignore docs files
 _gh_pages
 _site
@@ -38,3 +39,58 @@ bower
 
 # Gem
 Gemfile.lock
+=======
+# Jekyll ignores
+.sass-cache/
+_site
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# =========================
+# Operating System Files
+# =========================
+
+# OSX
+# =========================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+node_modules
+>>>>>>> 0cc56b6c55c63605def5d2a0be34bf7a0af87655
