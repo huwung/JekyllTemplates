@@ -1,0 +1,27 @@
+{
+  "name": "webbdesign",
+  "version": "1.0.0",
+  "description": "lösningarna i webdesign",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "/Volumes/privat/2016/2016-lösningarna/spectral-master.git"
+  },
+  "keywords": [
+    "jekyll",
+    "gulp",
+    "npm",
+    "gem",
+    "rake"
+  ],
+  "author": "bernstein (wang.hu.molnplus@gmail.com)",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "gulp": "^3.9.1",
+    "gulp-minify-html": "^1.0.6"
+  }
+}
