@@ -10,6 +10,10 @@ $baseurl: '{{ site.baseurl }}/images';
 @import 'font-awesome.min.css';
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic');
 
+/* google fonts
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Titillium+Web');
+*/
+
 /*
 	Spectral by HTML5 UP
 	html5up.net | @n33co
@@ -1820,7 +1824,7 @@ $baseurl: '{{ site.baseurl }}/images';
 
 	body.landing {
 		#page-wrapper {
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/banner.jpg")'));
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/2016-05-17-education.jpg")'));// 首页背景图
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -1841,7 +1845,7 @@ $baseurl: '{{ site.baseurl }}/images';
 
 			#banner,
 			.wrapper.style4 {
-				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/banner.jpg")'));
+				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/2016-05-17-education.jpg")')); // 首页背景图
 				background-position: center center;
 				background-repeat: no-repeat;
 				background-size: cover;
