@@ -1,27 +1,33 @@
 {
-  "name": "webbdesign",
+  "name": "kaos",
   "version": "1.0.0",
-  "description": "lösningarna i webdesign",
+  "description": "a jekyll based static bolg.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "/Volumes/privat/2016/2016-lösningarna/spectral-master.git"
+    "url": "git+https://github.com/huwung/huwung.github.io.git"
   },
   "keywords": [
     "jekyll",
-    "gulp",
-    "npm",
-    "gem",
-    "rake"
+    "gulp"
   ],
-  "author": "bernstein (wang.hu.molnplus@gmail.com)",
-  "license": "MIT",
+  "author": "hu w",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/huwung/huwung.github.io/issues"
+  },
+  "homepage": "https://github.com/huwung/huwung.github.io#readme",
   "devDependencies": {
-    "bower": "^1.7.9",
+    "browser-sync": "^2.17.3",
     "gulp": "^3.9.1",
-    "gulp-minify-html": "^1.0.6"
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssnano": "^2.1.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "susy": "^2.2.12"
   }
 }
