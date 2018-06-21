@@ -29,6 +29,14 @@ markdown: kramdown
 
 gems:
   - jekyll-feed
+
 exclude:
   - Gemfile
   - Gemfile.lock
+  - Gulpfile*
+  - .gitignore
+  - .jshintrc
+  - package.json
+  - .gitattributes
+  - .bowerrc
+  - node_modules
